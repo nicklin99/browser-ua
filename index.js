@@ -49,7 +49,7 @@ export const isWXMini = callback => {
       })
     } else {
       function ready() {
-        cache(window.__wxjs_environment ? 1 : '')
+        cache(window.__wxjs_environment === 'miniprogram' ? 1 : '')
       }
       if (!window.WeixinJSBridge || !WeixinJSBridge.invoke) {
         document.addEventListener('WeixinJSBridgeReady', ready, false)
