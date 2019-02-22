@@ -1,11 +1,12 @@
 {
   "name": "browser-ua",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "homepage": "https://github.com/nicklin99/browser-ua",
   "keywords": [],
   "author": "",
   "license": "ISC"
